@@ -1,0 +1,6 @@
+Feature: to test whether jenkins accepts
+  Scenario:
+    Given user is on argos homepage
+    When user types nike in the searchbox
+    And user clicks searchbutton
+    Then user should see all results from NIKE
